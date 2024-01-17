@@ -1,0 +1,22 @@
+#projects {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#projects td, #projects th {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#projects tr:nth-child(even){background-color: #f1f1f1;}
+
+#projects tr:hover {background-color: #edf9ea;}
+
+#projects th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #41b22a;
+    color: white;
+}
